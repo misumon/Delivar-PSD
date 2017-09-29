@@ -1,0 +1,561 @@
+
+.main-container{
+	font-family:"times new roman";
+}
+.navbar-default {
+  background:transparent;
+  border:transparent;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+	background:none;
+  color: #555;
+}
+.nav.navbar-nav a {
+  text-transform: uppercase;
+}
+.navbar-brand > img {
+  height: 28px;
+}
+.item img {
+  width: 100%;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+  background: #625d51 none repeat scroll 0 0;
+  border-radius: 100%;
+  font-size: 30px;
+  height: 45px;
+  margin-top: -10px;
+  padding-top: 5px;
+  width: 45px;
+}
+.carousel-control.right {
+  background-image:none;
+  background-repeat: repeat-x;
+  left: auto;
+  right: 0;
+}
+.carousel-control.left {
+  background-image: none;
+  background-repeat: repeat-x;
+}
+.carousel-caption > a {
+  border: 3px solid;
+  color: #fff;
+  padding: 5px 12px;
+}
+.carousel-caption {
+  left: 20%;
+  line-height: 24px;
+  padding-bottom: 125px;
+  right: 20%;
+}
+.carousel-indicators .active {
+  background-color: #fff;
+  height: 15px;
+  margin: 0;
+  width: 15px;
+}
+.about-aria{
+	text-align:center;
+}
+.title {
+  margin: 0 auto;
+  max-width: 848px;
+  text-align: center;
+}
+.row {
+  
+  margin-top: 30px;
+}
+.icon {
+  font-size: 100px;
+}
+.icon-over:hover {
+  background: #3399FF none repeat scroll 0 0;
+  border-radius: 7px;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: 183px;
+  left: 47px;
+  opacity: 0.5;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  transition: all 0.5s ease 0s;
+  width: 296px;
+}
+.icon-over {
+  border-radius: 7px;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: 183px;
+  left: 47px;
+  
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 296px;
+ 
+}
+
+.text > a {
+  color: green;
+  text-decoration: none;
+}
+.title > a {
+  background: green none repeat scroll 0 0;
+  border: 2px solid;
+  color: #fff;
+  line-height: 67px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+.title > a:hover{background:#ffaa10;}
+.link-icon > h1 {
+  float: left;
+}
+.about-bottom {
+	text-align:center;
+  background: #ccc none repeat scroll 0 0;
+}
+.footer-top {
+  background: #333333 none repeat scroll 0 0;
+  color: #ccc;
+}
+.icon > h1 {
+  display: block;
+  float: left;
+}
+
+.link-icon .fa {
+  background: #cbcbcb none repeat scroll 0 0;
+  border-radius: 100%;
+  color: gray;
+  float: right;
+  font-size: 20px;
+  height: 30px;
+  margin-top: 26px;
+  padding: 5px 7px;
+  width: 30px;
+  margin: 22px 5px;
+}
+.link-icon .fa:hover{
+	background:blue;
+	color:#fff;
+	cursor:pointer;
+}
+.p-tex > p {
+  float: left;
+}
+button, input, select, textarea {
+  color: #ddd;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 5px 14px;
+  background: #4e4c4c;
+  border: transparent;
+}
+.btn:hover{
+	background:#828282;
+}
+.text a {
+  color: #ddd;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.footer-bottom {
+  background:#333333 none repeat scroll 0 0;
+}
+.border-top{
+	border-top:2px solid #ccc;
+	display: block;
+}
+.border-top > p {
+  padding: 10px 0;
+  display: inline-block;
+}
+.border-top > li {
+  float: right;
+  padding: 8px;
+  display: block;
+}
+.icon > img {
+  height: 100%;
+  width: 100%;
+}
+.text > li {
+  list-style: outside none none;
+}
+.text > li .fa {
+  font-size: 20px;
+  padding-right: 10px;
+  padding-top: 5px;
+}
+.text a:hover {
+  color: #ffaa10;
+  text-decoration: none;
+}
+.form-control {
+  background-color: transparent;
+  border: solid 1px #ccc;
+  1: 4px;
+  color: #555;
+  display: block;
+  font-size: 14px;
+  height: 34px;
+  line-height: 1.42857;
+  padding: 6px 12px;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  width: 100%;
+}
+
+/*about */
+.about-header{
+	background:url(img/about.png)no-repeat;
+	height:100px;
+}
+.title-img {
+  color: #fff;
+  
+}
+.about-header {
+  background: rgba(0, 0, 0, 0) url("img/about.png") repeat-x scroll 0 0;
+  height: 78px;
+  margin-top: 76px;
+}
+.icon-shap {
+  background: gray  none repeat scroll 0 0;
+  height: 150px;
+  width: 100%;
+}
+.left-tex {
+  text-align: left;
+}
+.text-shap > p {
+  border-bottom: 2px solid gray;
+  padding: 7px 0;
+}
+.link-icon-fa .fa {
+  background: #ddd none repeat scroll 0 0;
+  border-radius: 100%;
+  height: 20px;
+  margin: 10px 6px;
+  padding: 4px;
+  width: 20px;
+  cursor:pointer;
+}
+.link-icon-fa .fa:hover{
+	background:#ffaa10;
+}
+
+
+
+/* ---- isotope ---- */
+
+.grid {
+  border: 1px solid #333;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .element-item ---- */
+img {
+  vertical-align: middle;
+  width: 90px;
+  height: 90px;
+}
+.element-item {
+  color: #262524;
+  float: left;
+  height: 175px;
+  margin: 5px;
+  padding: 10px;
+  position: relative;
+  width: 350px;
+}
+
+.element-item > * {
+  margin: 0;
+  padding: 0;
+}
+
+.element-item .name {
+  position: absolute;
+
+  left: 10px;
+  top: 60px;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.element-item .symbol {
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  font-size: 42px;
+  font-weight: bold;
+  color: white;
+}
+
+.element-item .number {
+  position: absolute;
+  right: 8px;
+  top: 5px;
+}
+
+.element-item .weight {
+  position: absolute;
+  left: 10px;
+  top: 76px;
+  font-size: 12px;
+}
+
+.element-item.alkali          { background: #F00; background: hsl(   0, 100%, 50%); }
+.element-item.alkaline-earth  { background: #F80; background: hsl(  36, 100%, 50%); }
+.element-item.lanthanoid      { background: #FF0; background: hsl(  72, 100%, 50%); }
+.element-item.actinoid        { background: #0F0; background: hsl( 108, 100%, 50%); }
+.element-item.transition      { background: #0F8; background: hsl( 144, 100%, 50%); }
+.element-item.post-transition { background: #0FF; background: hsl( 180, 100%, 50%); }
+.element-item.metalloid       { background: #08F; background: hsl( 216, 100%, 50%); }
+.element-item.diatomic        { background: #00F; background: hsl( 252, 100%, 50%); }
+.element-item.halogen         { background: #F0F; background: hsl( 288, 100%, 50%); }
+.element-item.noble-gas       { background: #F08; background: hsl( 324, 100%, 50%); }
+
+.element-item.transition {
+  background:transparent;
+}
+.element-item.metalloid {
+  background:transparent;
+}
+.element-item.post-transition {
+  background:transparent;
+}
+.element-item.alkali {
+  background:transparent;
+}
+.element-item.alkaline-earth {
+  background:transparent;
+}
+.element-item.lanthanoid {
+  background:transparent;
+}
+.element-item.actinoid {
+  background:transparent;
+}
+.element-item.diatomic {
+  background:transparent;
+}
+.element-item.noble-gas {
+  background:transparent;
+}
+.button-group {
+  margin: 0 auto;
+  max-width: 825px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+.grid {
+  border: medium none;
+  margin: 22px 0;
+}
+.sorting {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: times new roman;
+  color: #000;
+}
+
+
+.element-item{
+	position:relative;
+	 
+}
+.element-item img {
+  height: 200px;
+  padding: 18px;
+  width: 340px;
+}
+.fats-overly {
+  border-radius: 7px;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: 146px;
+  opacity: 0.6;
+  overflow: hidden;
+  position: absolute;
+  width: 252px;
+  left: 54px;
+}
+.fats-overly .fa {
+  font-size: 36px;
+  padding-left: 8px;
+  padding-top: 52px;
+}
+.small, small {
+  font-size: 56%;
+  left: 20px;
+  position: absolute;
+  text-transform: capitalize;
+  top: 55px;
+  
+}
+.element-item:hover .fats-overly {
+	background:#000;
+	transition:.5s;
+	color:#fff;
+	
+	
+}
+
+
+
+/* serviuces */
+.col-md-6 img {
+  float: left;
+}
+.ser-title {
+  padding-left: 122px;
+}
+.col-md-6.service {
+  margin: 3px 0;
+  padding-bottom: 33px;
+}
+.ser-pricing {
+  background: #fff none repeat scroll 0 0;
+  margin-bottom: 46px;
+}
+.link-tag > h2 {
+  background: #87b672 none repeat scroll 0 0;
+  color: #fff;
+  font-size: 41px;
+}
+.ser-h {
+	background: #87b672 none repeat scroll 0 0;
+  color: #fff;
+  font-size: 28px;
+  padding: 14px;
+}
+.ser-h > a {
+  background: #a5c895 none repeat scroll 0 0;
+  color: #fff;
+  padding: 6px 20px;
+  text-decoration: none;
+}
+.ser-h > a:hover {
+  background: green none repeat scroll 0 0;
+}
+.link-tag > li {
+  border-bottom: 1px solid #ccc;
+  display: block;
+  font-size: 30px;
+  list-style: outside none none;
+}
+.link-tag a {
+  color: #ccc;
+  text-decoration: none;
+}
+.link-tag a:hover {
+  color:green;
+  text-decoration: none;
+}
+
+/* archive */
+.row.left-text {
+  text-align: left;
+}
+.col-md-4 > h4 {
+  color: #000;
+  font-weight: bold;
+}
+.link-left > li {
+  list-style: outside none none;
+  margin: 10px;
+}
+.link-right a {
+  color: gray;
+  line-height: 39px;
+  margin: 10px;
+  text-decoration: none;
+}
+.link-right > li {
+  border-bottom: 2px solid #ccc;
+  list-style: outside none none;
+}
+.link-left .fa {
+  color: gray;
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.link-right a:hover {
+  color: #000;
+}
+.link-left a {
+  text-decoration: none;
+  color:#686464;
+}
+.link-left a:hover {
+  color: green;
+}
+
+/*blog*/
+.slider-text .fa {
+  margin: 12px 5px 0px 63px;
+  font-size: 16px;
+  color: gray;
+}
+.blog-img > img {
+  height: 350px;
+  width: 100%;
+}
+video {
+  background: gray none repeat scroll 0 0;
+  border: 7px solid silver;
+  width: 100%;
+}
+.blog-title {
+  border-top: 2px solid gray;
+}
+.blog-audo > img {
+  width: 100%;
+  height: 35px;
+}
+.vidoe .fa {
+  margin: 13px 10px 17px 38px;
+}
+
+
+
+
+/*contact us*/
+textarea {
+  float: left;
+  width: 100%;
+  background: #ddd;
+  margin: 10px 0px;
+}
+.contact-left input {
+  background: #ddd;
+  color: #000;
+  margin: 12px 0px;
+}
+.col-md-8 > a {
+  background: green none repeat scroll 0 0;
+  color: #fff;
+  font-size: 14px;
+  padding: 8px 11px;
+  text-transform:uppercase;
+}
+.contact-aria {
+  margin: 15px 0px;
+}
